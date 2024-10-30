@@ -39,16 +39,13 @@ const languages = {
 
     //About Us
     titleAU: "O NAS",
-    podtytulAU: "to firma specjalizująca się w legalizacji pobytu cudzoziemców w Polsce.Od lat pomagamy naszym klientom w uzyskaniu wszelkich niezbędnych zezwoleń i dokumentów, dbając o najwyższą jakość świadczonych usług.",
-
-    punkt1AU: "Doświadczenie:",
-    punkt2AU: "Wykwalifikowany zespół:",
-    punkt3AU: "Elastyczność i zaangażowanie:",
+    podtytulAU: "Specjalizujemy się w legalizacji pobytu cudzoziemców w Polsce. Od lat pomagamy naszym klientom w uzyskaniu wszelkich niezbędnych zezwoleń i dokumentów, dbając o najwyższą jakość świadczonych usług.",
 
     Opis1AU: "Ponad 7 lat doświadczenia w branży",
-    Opis2AU: "Nasi specjaliści to eksperci w dziedzinie legalizacji pobytu.",
-    Opis3AU: "Dopasowujemy nasze usługi do indywidualnych potrzeb każdego klienta.",
-    btnMore: "Czytaj Więcej",
+    Opis2AU: "Indywidualne podejscie. do każdego klienta.",
+    Opis3AU: "Kompleksowa obsługa",
+    Opis4AU: "Stały kontakt z klientem",
+    btnMore: "Zapoznaj się",
 
     //Opinie
     OpinieT: "Opinie",
@@ -158,10 +155,6 @@ const languages = {
     //About Us
     titleAU: "ABOUT US",
     podtytulAU: "is a company specializing in the legalization of foreigners' stay in Poland. For years, we have been helping our clients obtain all necessary permits and documents, ensuring the highest quality of services provided.",
-
-    punkt1AU: "Experience:",
-    punkt2AU: "Qualified Team:",
-    punkt3AU: "Flexibility and Commitment:",
 
     Opis1AU: "Over 7 years of industry experience",
     Opis2AU: "Our specialists are experts in the field of residence legalization.",
@@ -279,10 +272,6 @@ const languages = {
     titleAU: "ПРО НАС",
     podtytulAU: "це компанія, що спеціалізується на легалізації перебування іноземців в Польщі. Ми допомагаємо нашим клієнтам отримати всі необхідні дозволи та документи, дбаючи про найвищу якість послуг.",
 
-    punkt1AU: "Досвід:",
-    punkt2AU: "Кваліфікована команда:",
-    punkt3AU: "Гнучкість та відданість:",
-
     Opis1AU: "Понад 7 років досвіду в галузі",
     Opis2AU: "Наші спеціалісти - експерти в галузі легалізації перебування.",
     Opis3AU: "Ми адаптуємо наші послуги до індивідуальних потреб кожного клієнта.",
@@ -398,12 +387,10 @@ function updateTexts(language) {
   //About Us
   document.getElementById('titleAU').innerText = languages[language].titleAU;
   document.getElementById('podtytulAU').innerText = languages[language].podtytulAU;
-  document.getElementById('punkt1AU').innerText = languages[language].punkt1AU;
-  document.getElementById('punkt2AU').innerText = languages[language].punkt2AU;
-  document.getElementById('punkt3AU').innerText = languages[language].punkt2AU;
   document.getElementById('Opis1AU').innerText = languages[language].Opis1AU;
   document.getElementById('Opis2AU').innerText = languages[language].Opis2AU;
   document.getElementById('Opis3AU').innerText = languages[language].Opis3AU;
+  document.getElementById('Opis4AU').innerText = languages[language].Opis4AU;
   document.getElementById('btnMore').innerText = languages[language].btnMore;
   //Opinie
   document.getElementById('OpinieT').innerText = languages[language].OpinieT;

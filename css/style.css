@@ -5880,7 +5880,6 @@ html .quote-minimal-cite {
 	left: 0;
 	opacity: .4;
 	pointer-events: none;
-	background-image: linear-gradient(to top, #07264c 0%, #07264c 100%);
 }
 
 .thumbnail-classy-caption {
@@ -10725,7 +10724,7 @@ html .section-decoration-4 {
 */
 
 #about-us{
-
+	position: relative;
 }
 
 .bggray{
@@ -10736,6 +10735,34 @@ html .section-decoration-4 {
 .zdjecie{
     position: absolute;
     left: -73px;
+}
+
+.yellowbox{
+	width: 252px;
+    height: 252px;
+    background-color: #FFB703;
+    position: absolute;
+    right: 10px;
+    top: 300px;
+}
+.brownwbox{
+	width: 252px;
+    height: 252px;
+    background-color: #EE8542;
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+}
+
+@media (max-width: 1200px) {
+	.brownwbox{
+		width: 252px;
+		height: 252px;
+		background-color: #EE8542;
+		position: absolute;
+		right: 10px;
+		bottom: 70px;
+	}
 }
 
 .bg-accent .button-gray-700:hover {
@@ -10753,16 +10780,6 @@ html .section-decoration-4 {
 	border-color: #ff6f80;
 }
 
-.bg-accent .button-primary {
-	color: #262f3c;
-	background: #ffffff;
-	border-color: #ffffff;
-}
-
-.bg-accent .button-primary:hover {
-	color: #ffffff;
-	background: #3d8cc5;
-}
 
 .bg-accent .button-secondary:hover {
 	color: #262f3c;
