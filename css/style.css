@@ -1265,8 +1265,8 @@ p [style*='max-width'] {
 .badge {
 	font-weight: 700;
     font-family: "Montserrat", sans-serif !important;
-	color: #1A354A;
-	background: #FB8500;
+	color: #1A354A !important;
+	background: #FB8500 !important;
 	text-transform: uppercase;
 	letter-spacing: .09em;
 	font-size: 14px !important;
@@ -10752,6 +10752,25 @@ html .section-decoration-4 {
     position: absolute;
     right: 10px;
     bottom: 120px;
+}
+
+@media (min-width: 1735px) {
+    .yellowbox{
+		width: 252px;
+		height: 252px;
+		background-color: #FFB703;
+		position: absolute;
+		right: 85px;
+		top: 275px;
+	}
+	.brownwbox{
+		width: 252px;
+		height: 252px;
+		background-color: #EE8542;
+		position: absolute;
+		right: 85px;
+		bottom: 182px;
+	}
 }
 
 @media (max-width: 1200px) {
