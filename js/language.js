@@ -53,15 +53,13 @@ const languages = {
     //Plany
     TytulPl: "NASZE PAKIETY",
     PodTytulPl: "Dostosowane do Twoich potrzeb",
-    Title1Pl: "KONSULTACJA",
-    Title2Pl: "BASIC ",
-    Title3Pl: "BASIC PLUS",
-    Title4Pl: "RELOCATION UNLIMITED",
+    Title1Pl: "KONSULTACJA INTRO",
+    Title2Pl: "KONSULTACJA FULL ",
+    Title3Pl: "BASIC",
+    Title4Pl: "BASIC PLUS",
+    Title5Pl: "RELOCATION UNLIMITED",
 
-    Kons1Pl: "Wstępna konsultacja",
-    Kons2Pl: "Analiza dokumentów",
-    Kons3Pl: "Przygotowanie pakietu dokumentów",
-    Kons4Pl: "Informacje na temat wymaganych dokumentów",
+    Kons1Pl: "Konsultacja telefoniczna wstępna / 15min",
 
     Basic1Pl: "Wstępna konsultacja",
     Basic2Pl: "Analiza dokumentów",
@@ -92,7 +90,7 @@ const languages = {
     Praca8Pl: "Wymiana zagranicznego prawa jazdy na polskie",
     Praca9Pl: "Pomoc w uzyskaniu pierwszego zezwolenia na pobyt czasowy na podstawie pakietu „BASIC PLUS''",
     
-    Btn1Pl: "Kontakt",
+    Btn1Pl: "UMÓW SIĘ NA KONSULTACJĘ",
     Btn2Pl: "Kontakt",
     Btn3Pl: "Kontakt",
     Btn4Pl: "Kontakt",

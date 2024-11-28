@@ -340,9 +340,42 @@ ul {
 }
 
 .pricing-header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 20px !important;
   padding: 50px 30px 30px !important;
+}
+
+.btn-pakiet {
+	background-color: #1A354A;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	font-weight: 600;
+	border-radius: 25px;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.btn-pakiet:hover {
+	background-color: #33414e;
+}
+
+.btn-pakiet:active {
+	background-color: #242f36;
+	box-shadow: inset 0px 0px 5px #000000;
+}
+
+.arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid white;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
 .pricing-item .footer {
@@ -10773,6 +10806,17 @@ html .section-decoration-4 {
 	}
 }
 
+@media (max-width: 980px) {
+	.pricingFirst{
+		width: 143%;
+	}
+}
+@media (max-width: 500px) {
+	.pricingFirst{
+		width: 100%;
+	}
+}
+
 @media (max-width: 1200px) {
 	.brownwbox{
 		width: 252px;
@@ -10782,6 +10826,35 @@ html .section-decoration-4 {
 		right: 10px;
 		bottom: 70px;
 	}
+}
+
+
+
+.yellowbox2{
+	width: 252px;
+    height: 252px;
+    background-color: #FFB703;
+    position: absolute;
+    left: 110px;
+    top: 197px;
+    z-index: 1;
+}
+.brownwbox2{
+	width: 252px;
+    height: 252px;
+    background-color: #EE8542;
+    position: absolute;
+    left: 110px;
+    bottom: 242px;
+    z-index: 1;
+}
+
+@media (min-width: 1735px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }
 
 .bg-accent .button-gray-700:hover {
