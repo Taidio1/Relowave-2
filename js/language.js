@@ -63,22 +63,11 @@ const languages = {
 
     Basic1Pl: "Wstępna konsultacja",
     Basic2Pl: "Analiza dokumentów",
-    Basic3Pl: "Przygotowanie pakietu dokumentów",
-    Basic4Pl: "Informacje Na Temat Wymaganych Dokumentów",
-    Basic5Pl: "*Cena nie obejmuje opłaty administracyjne",
-    Basic6Pl: "**Cena ostateczna zależy od podstawy składanego wniosku",
 
-    Rodz1Pl: "Konsultacja wstępna",
+    Rodz1Pl: "Konsultacja wstępna rozszerzona",
     Rodz2Pl: "Analiza dokumentów",
-    Rodz3Pl: "Umówienia terminu w urzędzie",
-    Rodz4Pl: "Pełnomocnictwo",
-    Rodz5Pl: "Wspólna wizyta w Urzędzie Wojewódzkim w celu złożenia wniosku",
-    Rodz6Pl: "Nadzór nad przebiegiem sprawy oraz pilnowanie terminów",
-    Rodz7Pl: "Komunikacja z inspektorem w imieniu klienta",
-    Rodz8Pl: "Uzupełnienie dokumentów z imieniu klienta",
-    Rodz9Pl: "Rezerwacja wizyty dla odbioru karty pobytu",
-    Rodz10Pl: "*Cena nie obejmuje opłaty administracyjne",
-    Rodz11Pl: "**Cena ostateczna zależy od podstawy składanego wniosku",
+    Rodz3Pl: "Przygotowanie pakietu dokumentów",
+    Rodz4Pl: "Informacje na temat wymaganych dokumentów",
 
     Praca1Pl: "Konsultacja wstępna",
     Praca2Pl: "Analiza dokumentów",
@@ -91,8 +80,8 @@ const languages = {
     Praca9Pl: "Pomoc w uzyskaniu pierwszego zezwolenia na pobyt czasowy na podstawie pakietu „BASIC PLUS''",
     
     Btn1Pl: "UMÓW SIĘ NA KONSULTACJĘ",
-    Btn2Pl: "Kontakt",
-    Btn3Pl: "Kontakt",
+    Btn2Pl: "UMÓW SIĘ NA KONSULTACJĘ",
+    Btn3Pl: "PAKIET BASIC",
     Btn4Pl: "Kontakt",
 
     //Sekcja: Czemy my?
@@ -165,8 +154,8 @@ const languages = {
     //Plans
     TytulPl: "OUR PACKAGES",
     PodTytulPl: "Tailored to Your Needs",
-    Title1Pl: "CONSULTATION",
-    Title2Pl: "BASIC",
+    Title1Pl: "KONSULTACJA INTRO",
+    Title2Pl: "KONSULTACJA FULL",
     Title3Pl: "BASIC PLUS",
     Title4Pl: "RELOCATION UNLIMITED",
     
@@ -177,10 +166,6 @@ const languages = {
     
     Basic1Pl: "Initial Consultation",
     Basic2Pl: "Document Analysis",
-    Basic3Pl: "Preparation of Document Package",
-    Basic4Pl: "Information on Required Documents",
-    Basic5Pl: "*Price does not include administrative fees",
-    Basic6Pl: "**Final price depends on the basis of the application",
     
     Rodz1Pl: "Initial Consultation",
     Rodz2Pl: "Document Analysis",
@@ -293,10 +278,6 @@ const languages = {
 
     Basic1Pl: "Початкова Консультація",
     Basic2Pl: "Аналіз Документів",
-    Basic3Pl: "Підготовка Пакету Документів",
-    Basic4Pl: "Інформація про Необхідні Документи",
-    Basic5Pl: "*Ціна не включає адміністративні збори",
-    Basic6Pl: "**Кінцева ціна залежить від підстави подання заявки",
 
     Rodz1Pl: "Початкова Консультація",
     Rodz2Pl: "Аналіз Документів",
@@ -402,26 +383,17 @@ function updateTexts(language) {
   document.getElementById('Title3Pl').innerText = languages[language].Title3Pl;
   document.getElementById('Title4Pl').innerText = languages[language].Title4Pl;
   //Opisy
+  document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
   //Pakiet Basic
   document.getElementById('Basic1Pl').innerText = languages[language].Basic1Pl;
   document.getElementById('Basic2Pl').innerText = languages[language].Basic2Pl;
-  document.getElementById('Basic5Pl').innerText = languages[language].Basic5Pl;
-  document.getElementById('Basic6Pl').innerText = languages[language].Basic6Pl;
-  //Konsultacja
-  document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
-  document.getElementById('Kons2Pl').innerText = languages[language].Kons2Pl;
+
   //Pakiet Basic Plus
   document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
   document.getElementById('Rodz2Pl').innerText = languages[language].Rodz2Pl;
   document.getElementById('Rodz3Pl').innerText = languages[language].Rodz3Pl;
   document.getElementById('Rodz4Pl').innerText = languages[language].Rodz4Pl;
-  document.getElementById('Rodz5Pl').innerText = languages[language].Rodz5Pl;
-  document.getElementById('Rodz6Pl').innerText = languages[language].Rodz6Pl;
-  document.getElementById('Rodz7Pl').innerText = languages[language].Rodz7Pl;
-  document.getElementById('Rodz8Pl').innerText = languages[language].Rodz8Pl;
-  document.getElementById('Rodz9Pl').innerText = languages[language].Rodz9Pl;
-  document.getElementById('Rodz10Pl').innerText = languages[language].Rodz10Pl;
-  document.getElementById('Rodz11Pl').innerText = languages[language].Rodz11Pl;
+
   //Praca
   document.getElementById('Praca1Pl').innerText = languages[language].Praca1Pl;
   document.getElementById('Praca2Pl').innerText = languages[language].Praca2Pl;
