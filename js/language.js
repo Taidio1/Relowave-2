@@ -64,10 +64,27 @@ const languages = {
     Basic1Pl: "Wstępna konsultacja",
     Basic2Pl: "Analiza dokumentów",
 
+
+    //Pakiet Basic
     Rodz1Pl: "Konsultacja wstępna rozszerzona",
     Rodz2Pl: "Analiza dokumentów",
     Rodz3Pl: "Przygotowanie pakietu dokumentów",
     Rodz4Pl: "Informacje na temat wymaganych dokumentów",
+
+    //Pakiet Basic Plus
+    Basic1:"Konsultacja wstępna",
+    Basic2:"Analiza dokumentów",
+    Basic3:"Umówienia terminu w urzędzie",
+    Basic4:"Pełnomocnictwo",
+    Basic5:"Wspólna wizyta w Urzędzie Wojewódzkim w celu złożenia wniosku",
+    Basic6:"Nadzór nad przebiegiem sprawy oraz pilnowanie terminów",
+    Basic7:"Komunikacja z inspektorem w imieniu klienta",
+    Basic8:"Uzupełnienie dokumentów z imieniu klienta",
+    Basic9:"Rezerwacja wizyty dla odbioru karty pobytu",
+    Basic10:"*Cena nie obejmuje opłaty administracyjne",
+    Basic11:"**Cena ostateczna zależy od podstawy składanego wniosku",
+
+
 
     Praca1Pl: "Konsultacja wstępna",
     Praca2Pl: "Analiza dokumentów",
@@ -384,16 +401,30 @@ function updateTexts(language) {
   document.getElementById('Title4Pl').innerText = languages[language].Title4Pl;
   //Opisy
   document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
+  
   //Pakiet Basic
-  document.getElementById('Basic1Pl').innerText = languages[language].Basic1Pl;
-  document.getElementById('Basic2Pl').innerText = languages[language].Basic2Pl;
-
+  
   //Pakiet Basic Plus
   document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
   document.getElementById('Rodz2Pl').innerText = languages[language].Rodz2Pl;
   document.getElementById('Rodz3Pl').innerText = languages[language].Rodz3Pl;
   document.getElementById('Rodz4Pl').innerText = languages[language].Rodz4Pl;
 
+  // Basic Plus package elements
+  document.getElementById('Basic1').innerText = languages[language].Basic1;
+  document.getElementById('Basic2').innerText = languages[language].Basic2;
+  document.getElementById('Basic3').innerText = languages[language].Basic3;
+  document.getElementById('Basic4').innerText = languages[language].Basic4;
+  document.getElementById('Basic5').innerText = languages[language].Basic5;
+  document.getElementById('Basic6').innerText = languages[language].Basic6;
+  document.getElementById('Basic7').innerText = languages[language].Basic7;
+  document.getElementById('Basic8').innerText = languages[language].Basic8;
+  document.getElementById('Basic9').innerText = languages[language].Basic9;
+  document.getElementById('Basic10').innerText = languages[language].Basic10;
+  document.getElementById('Basic11').innerText = languages[language].Basic11;
+
+  
+  document.getElementById('Basic1PL').innerText = languages[language].Basic2Pl;
   //Praca
   document.getElementById('Praca1Pl').innerText = languages[language].Praca1Pl;
   document.getElementById('Praca2Pl').innerText = languages[language].Praca2Pl;
