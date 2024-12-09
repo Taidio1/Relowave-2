@@ -62,7 +62,7 @@ const languages = {
     Kons1Pl: "Konsultacja telefoniczna wstępna / 15min",
 
     Basic1Pl: "Wstępna konsultacja",
-    Basic2Pl: "Analiza dokumentów",
+    KonWs2: "Analiza dokumentów",
 
 
     //Pakiet Basic
@@ -72,34 +72,34 @@ const languages = {
     Rodz4Pl: "Informacje na temat wymaganych dokumentów",
 
     //Pakiet Basic Plus
-    Basic1:"Konsultacja wstępna",
-    Basic2:"Analiza dokumentów",
-    Basic3:"Umówienia terminu w urzędzie",
-    Basic4:"Pełnomocnictwo",
-    Basic5:"Wspólna wizyta w Urzędzie Wojewódzkim w celu złożenia wniosku",
-    Basic6:"Nadzór nad przebiegiem sprawy oraz pilnowanie terminów",
-    Basic7:"Komunikacja z inspektorem w imieniu klienta",
-    Basic8:"Uzupełnienie dokumentów z imieniu klienta",
-    Basic9:"Rezerwacja wizyty dla odbioru karty pobytu",
-    Basic10:"*Cena nie obejmuje opłaty administracyjne",
-    Basic11:"**Cena ostateczna zależy od podstawy składanego wniosku",
+    BasicP1: "Konsultacja wstępna",
+    BasicP2: "Analiza dokumentów",
+    BasicP3: "Umówienia terminu w urzędzie",
+    BasicP4: "Pełnomocnictwo",
+    BasicP5: "Wspólna wizyta w Urzędzie Wojewódzkim w celu złożenia wniosku",
+    BasicP6: "Nadzór nad przebiegiem sprawy oraz pilnowanie terminów",
+    BasicP7: "Komunikacja z inspektorem w imieniu klienta",
+    BasicP8: "Uzupełnienie dokumentów z imieniu klienta",
+    BasicP9: "Rezerwacja wizyty dla odbioru karty pobytu",
+    BasicP10: "*Cena nie obejmuje opłaty administracyjne",
+    BasicP11: "**Cena ostateczna zależy od podstawy składanego wniosku",
 
 
 
     Praca1Pl: "Konsultacja wstępna",
     Praca2Pl: "Analiza dokumentów",
     Praca3Pl: "Pomoc w wyborze optymalnej ścieżki dla relokacji",
-    Praca4Pl: "Wsparcie w poszukiwaniu biura nieruchomości, szkoły/przedszkole dla dzieci, kursu językowego na podstawie twoich wymagań",
+    Praca4Pl: "Wsparcie w poszukiwaniu biura nieruchomości, szkoły/przedszkola dla dzieci, kursu językowego na podstawie twoich wymagań",
     Praca5Pl: "Pomoc w otrzymaniu numeru PESEL",
-    Praca6Pl: "Pomoc w otrzymaniu zaświadczenia o zameldowanie",
-    Praca7Pl: "Założenie konta bankowego",
-    Praca8Pl: "Wymiana zagranicznego prawa jazdy na polskie",
-    Praca9Pl: "Pomoc w uzyskaniu pierwszego zezwolenia na pobyt czasowy na podstawie pakietu „BASIC PLUS''",
+    Praca6Pl: "Założenie konta bankowego",
+    Praca7Pl: "Wymiana zagranicznego prawa jazdy na polskie",
+    Praca8Pl: "Pomoc w uzyskaniu pierwszego zezwolenia na pobyt ,czasowy na podstawie pakietu „BASIC PLUS”",
     
     Btn1Pl: "UMÓW SIĘ NA KONSULTACJĘ",
-    Btn2Pl: "UMÓW SIĘ NA KONSULTACJĘ",
-    Btn3Pl: "PAKIET BASIC",
-    Btn4Pl: "Kontakt",
+    Btn2Pl: "PAKIET BASIC PLUS",
+    Btn3Pl: "UZYSKAJ WYCENEEE",
+    Btn4Pl: "PAKIET BASIC",
+    Btn5Pl: "UMÓW SIĘ NA KONSULTACJĘ",
 
     //Sekcja: Czemy my?
     TytulWU: "CZEMU MY?",
@@ -173,8 +173,9 @@ const languages = {
     PodTytulPl: "Tailored to Your Needs",
     Title1Pl: "KONSULTACJA INTRO",
     Title2Pl: "KONSULTACJA FULL",
-    Title3Pl: "BASIC PLUS",
-    Title4Pl: "RELOCATION UNLIMITED",
+    Title3Pl: "BASIC",
+    Title4Pl: "BASIC PLUS",
+    Title5Pl: "RELOCATION UNLIMITED",
     
     Kons1Pl: "Initial Consultation",
     Kons2Pl: "Document Analysis",
@@ -182,8 +183,21 @@ const languages = {
     Kons4Pl: "Information on Required Documents",
     
     Basic1Pl: "Initial Consultation",
-    Basic2Pl: "Document Analysis",
+    KonWs2: "Document Analysis",
     
+    BasicP1: "Initial Consultation",
+    BasicP2: "Document Analysis",
+    BasicP3: "Appointment Scheduling at the Office",
+    BasicP4: "Power of Attorney",
+    BasicP5: "Joint Visit to the Voivodeship Office to Submit the Application",
+    BasicP6: "Supervision of the Case and Keeping Track of Deadlines",
+    BasicP7: "Communication with the Inspector on Behalf of the Client",
+    BasicP8: "Completing Documents on Behalf of the Client",
+    BasicP9: "Appointment Booking for Residence Card Collection",
+    BasicP10: "*Price does not include administrative fees",
+    BasicP11: "**Final price depends on the basis of the application",
+
+
     Rodz1Pl: "Initial Consultation",
     Rodz2Pl: "Document Analysis",
     Rodz3Pl: "Appointment Scheduling at the Office",
@@ -204,13 +218,13 @@ const languages = {
     Praca6Pl: "Assistance in Obtaining a Residence Registration Certificate",
     Praca7Pl: "Bank Account Setup",
     Praca8Pl: "Exchange of Foreign Driver's License for Polish One",
-    Praca9Pl: "Assistance in Obtaining the First Temporary Residence Permit under the 'BASIC PLUS' Package",
     
 
     Btn1Pl: "Contact",
     Btn2Pl: "Contact",
     Btn3Pl: "Contact",
     Btn4Pl: "Contact",
+    Btn5Pl: "Contact",
 
 
     BtnPl: "Contact",
@@ -287,6 +301,7 @@ const languages = {
     Title2Pl: "БАЗОВИЙ",
     Title3Pl: "БАЗОВИЙ ПЛЮС",
     Title4Pl: "РЕЛОКАЦІЯ БЕЗ ОБМЕЖЕНЬ",
+    Title5Pl: "РЕЛОКАЦІЯ БЕЗ ОБМЕЖЕНЬ",
 
     Kons1Pl: "Початкова Консультація",
     Kons2Pl: "Аналіз Документів",
@@ -294,7 +309,19 @@ const languages = {
     Kons4Pl: "Інформація про Необхідні Документи",
 
     Basic1Pl: "Початкова Консультація",
-    Basic2Pl: "Аналіз Документів",
+    KonWs2: "Аналіз Документів",
+
+    BasicP1: "Початкова Консультація",
+    BasicP2: "Аналіз Документів",
+    BasicP3: "Запис на прийом в офісі",
+    BasicP4: "Довіреність",
+    BasicP5: "Спільний Візит до Воєводського Управління для Подання Заявки",
+    BasicP6: "Нагляд за Розглядом Справи та Контроль за Дотриманням Термінів",
+    BasicP7: "Комунікація з Інспектором від Імені Клієнта",
+    BasicP8: "Доповнення Документів від Імені Клієнта",
+    BasicP9: "Запис на Прийом для Отримання Карти Побиту",
+    BasicP10: "*Ціна не включає адміністративні збори",
+    BasicP11: "**Кінцева ціна залежить від підстави подання заявки",
 
     Rodz1Pl: "Початкова Консультація",
     Rodz2Pl: "Аналіз Документів",
@@ -316,13 +343,13 @@ const languages = {
     Praca6Pl: "Допомога в Отриманні Свідоцтва про Реєстрацію Місця Проживання",
     Praca7Pl: "Відкриття Банківського Рахунку",
     Praca8Pl: "Обмін Іноземного Водійського Посвідчення на Польське",
-    Praca9Pl: "Допомога в Отриманні Першого Тимчасового Дозволу на Проживання за Пакетом 'BASIC PLUS'",
 
 
     Btn1Pl: "Контакт",
     Btn2Pl: "Контакт",
     Btn3Pl: "Контакт",
     Btn4Pl: "Контакт",
+    Btn5Pl: "Контакт",
 
     //Sekcja: Czemy my?
     TytulWU: "ЧОМУ МИ?",
@@ -403,29 +430,32 @@ function updateTexts(language) {
   document.getElementById('Kons1Pl').innerText = languages[language].Kons1Pl;
   
   //Pakiet Basic
+  document.getElementById('Btn4Pl').innerText = languages[language].Btn4Pl;
+  document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
+  document.getElementById('Basic1Pl').innerText = languages[language].Basic1Pl;
+  document.getElementById('KonWs2').innerText = languages[language].KonWs2;
+  //Praca
   
   //Pakiet Basic Plus
-  document.getElementById('Rodz1Pl').innerText = languages[language].Rodz1Pl;
   document.getElementById('Rodz2Pl').innerText = languages[language].Rodz2Pl;
   document.getElementById('Rodz3Pl').innerText = languages[language].Rodz3Pl;
   document.getElementById('Rodz4Pl').innerText = languages[language].Rodz4Pl;
-
-  // Basic Plus package elements
-  document.getElementById('Basic1').innerText = languages[language].Basic1;
-  document.getElementById('Basic2').innerText = languages[language].Basic2;
-  document.getElementById('Basic3').innerText = languages[language].Basic3;
-  document.getElementById('Basic4').innerText = languages[language].Basic4;
-  document.getElementById('Basic5').innerText = languages[language].Basic5;
-  document.getElementById('Basic6').innerText = languages[language].Basic6;
-  document.getElementById('Basic7').innerText = languages[language].Basic7;
-  document.getElementById('Basic8').innerText = languages[language].Basic8;
-  document.getElementById('Basic9').innerText = languages[language].Basic9;
-  document.getElementById('Basic10').innerText = languages[language].Basic10;
-  document.getElementById('Basic11').innerText = languages[language].Basic11;
-
   
-  document.getElementById('Basic1PL').innerText = languages[language].Basic2Pl;
-  //Praca
+  // Basic Plus package elements
+  document.getElementById('BasicP1').innerText = languages[language].BasicP1;
+  document.getElementById('BasicP2').innerText = languages[language].BasicP2;
+  document.getElementById('BasicP3').innerText = languages[language].BasicP3;
+  document.getElementById('BasicP4').innerText = languages[language].BasicP4;
+  document.getElementById('BasicP5').innerText = languages[language].BasicP5;
+  document.getElementById('BasicP6').innerText = languages[language].BasicP6;
+  document.getElementById('BasicP7').innerText = languages[language].BasicP7;
+  document.getElementById('BasicP8').innerText = languages[language].BasicP8;
+  document.getElementById('BasicP9').innerText = languages[language].BasicP9;
+  document.getElementById('BasicP10').innerText = languages[language].BasicP10;
+  document.getElementById('BasicP11').innerText = languages[language].BasicP11;
+  
+  
+  
   document.getElementById('Praca1Pl').innerText = languages[language].Praca1Pl;
   document.getElementById('Praca2Pl').innerText = languages[language].Praca2Pl;
   document.getElementById('Praca3Pl').innerText = languages[language].Praca3Pl;
@@ -434,12 +464,12 @@ function updateTexts(language) {
   document.getElementById('Praca6Pl').innerText = languages[language].Praca6Pl;
   document.getElementById('Praca7Pl').innerText = languages[language].Praca7Pl;
   document.getElementById('Praca8Pl').innerText = languages[language].Praca8Pl;
-  document.getElementById('Praca9Pl').innerText = languages[language].Praca9Pl;
+ 
   //Btn
   document.getElementById('Btn1Pl').innerText = languages[language].Btn1Pl;
   document.getElementById('Btn2Pl').innerText = languages[language].Btn2Pl;
   document.getElementById('Btn3Pl').innerText = languages[language].Btn3Pl;
-  document.getElementById('Btn4Pl').innerText = languages[language].Btn4Pl;
+  document.getElementById('Btn5Pl').innerText = languages[language].Btn5Pl;
   //Kontakt
   document.getElementById('TytulKo').innerText = languages[language].TytulKo;
   //Napuisz do nas

@@ -130,6 +130,8 @@ color: #555;
   }
   .checkbox-container{
 	display: flex;
+	align-items: center;
+    gap: 12px;
   }
   .checkbox:before{
 	z-index:15;
@@ -242,15 +244,18 @@ ul {
 }
 
 .pricing-item {
-  background: #ffffff none repeat scroll 0 0;
-  -moz-box-shadow: 0 0 10px #cccccc;
-  -webkit-box-shadow: 0 0 10px #cccccc;
-  -o-box-shadow: 0 0 10px #cccccc;
-  box-shadow: 0 0 10px #cccccc;
-  margin-bottom: 80px;
-  position: relative;
-  z-index: 9;
-  height: 90%;
+	background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pricing-item .icon {
@@ -312,6 +317,8 @@ ul {
   color: #323a45;
 }
 
+
+
 .pricing-header h2 {
   color: #323a45;
   font-size: 43px;
@@ -340,22 +347,21 @@ ul {
 }
 
 .pricing-header {
-  margin-bottom: 20px !important;
-  padding: 50px 30px 30px !important;
-}
+  padding: 20px 0px 8px !important;}
 
 .btn-pakiet {
 	background-color: #1A354A;
-	color: white;
-	padding: 15px 30px;
-	border: none;
-	font-weight: 600;
-	border-radius: 25px;
-	cursor: pointer;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	font-size: 16px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    justify-content: center;
 }
 
 .btn-pakiet:hover {
@@ -379,12 +385,42 @@ ul {
 }
 
 .pricing-item .footer {
-  padding: 20px 30px 30px;
+	margin-left: 0;
+    margin-right: 0;
 }
 
 .pricing-item li {
-  line-height: 40px;
   margin: 0 30px;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.wybraniec{
+	background-color: #FB8500 !important;
+	color: #ffffff !important;
+	max-width: 288px !important;
+}
+
+.wave-decoration {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 150px;
+	background: linear-gradient(45deg, #FF8B64 30%, #1A354A 100%);
+	border-radius: 100% 100% 0 0;
+	transform: scaleX(1.5);
+	z-index: -1;
+	opacity: 0.2;
+  }
+
+.aaaaa{
+	width: 570px !important;
+}
+
+.pricing-item li + li {
+    margin : 1em;
 }
 
 .pricing-area .pricing-item.active .pricing-header {
@@ -10794,6 +10830,10 @@ html .section-decoration-4 {
 		right: 85px;
 		bottom: 182px;
 	}
+}
+
+.pricingFirst{
+	width: 1200px;
 }
 
 @media (max-width: 980px) {
