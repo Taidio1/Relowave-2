@@ -419,6 +419,10 @@ ul {
 	width: 570px !important;
 }
 
+.activePrice{
+	border: 7px solid #FB8500;
+}
+
 .pricing-item li + li {
     margin : 1em;
 }
@@ -10616,7 +10620,27 @@ html .section-decoration-4 {
 	.cell-md-6 .cell-inner {
 		max-width: 360px;
 	}
+
+	
 }
+@media (max-width: 768px) {
+	.svgbg{
+		visibility: hidden;
+	}
+
+	.contactbg{
+		background-color: #1A354A;
+	}
+
+	.rev{
+		flex-direction: column-reverse !important;
+	}
+
+	.tx{
+		text-align: left !important;
+	}
+}
+
 
 @media (min-width: 992px) {
 	[class*='cell-lg'] > .row > [class*='col'] {

@@ -97,7 +97,7 @@ const languages = {
     
     Btn1Pl: "UMÓW SIĘ NA KONSULTACJĘ",
     Btn2Pl: "PAKIET BASIC PLUS",
-    Btn3Pl: "UZYSKAJ WYCENEEE",
+    Btn3Pl: "UZYSKAJ WYCENE",
     Btn4Pl: "PAKIET BASIC",
     Btn5Pl: "UMÓW SIĘ NA KONSULTACJĘ",
 
@@ -128,116 +128,104 @@ const languages = {
   },
   eng: {
     //nav
-    stronaglowna: "Home",
+    stronaglowna: "Home Page",
     onas: "About Us",
     uslugi: "Services",
     kontakt: "Contact",
     //Welcome Page
-    Tytul: "Welcome to",
-    Tytul2: "Relowave!",
-    slogan: "Our mission is to simplify the process of legalizing your stay in Poland",
-    btnind: "Read More",
+    Tytul: "Welcome to ",
+    Tytul2: "Relowave",
+    slogan: "We will simplify your residence legalization process in Poland",
+    btnind: "Learn more >",
+    btnind2: "Learn more >",
 
     //Services
     Tytul1SE: "Our Services",
-    Tytul2SE: "What We Do",
-
-    Lista1SE: "Residence Legalization",
-    Lista2SE: "Work Permits",
-    Lista3SE: "Citizenship Acquisition",
+    Tytul2SE: "WHAT WE DO",
+    Lista1SE: "Residence legalization",
+    Lista2SE: "Work permits",
+    Lista3SE: "Citizenship acquisition",
     Lista4SE: "Consultations",
-    Lista5SE: "Driver's License Permit",
-    Lista6SE: "Recognition of foreign civil status records",
+    Lista5SE: "Driver's license exchange",
+    Lista6SE: "Recognition of foreign civil status documents",
 
-    Opis1AS: "Temporary Residence, Permanent Residence, Long-term Residence",
-    Opis2AS: "We support in obtaining all necessary work permits.",
-    Opis3AS: "We assist in obtaining documents related to citizenship acquisition.",
-    Opis4AS: "We offer professional advice at every stage of the legalization process.",
-    Opis5AS: "Assistance in obtaining necessary documents for legalizing your driver's license in Poland",
-    Opis6AS: "Assistance in recognizing foreign civil status records",
+    Opis1AS: "Temporary residence, Permanent residence, Long-term residence",
+    Opis2AS: "We assist in obtaining all necessary work permits.",
+    Opis3AS: "We offer comprehensive assistance in the citizenship acquisition process.",
+    Opis4AS: "We provide professional support at every stage of the legalization process.",
+    Opis5AS: "Assistance in the process of exchanging a foreign driver's license for a Polish one.",
+    Opis6AS: "Help in recognizing foreign civil status documents.",
 
     //About Us
     titleAU: "ABOUT US",
-    podtytulAU: "is a company specializing in the legalization of foreigners' stay in Poland. For years, we have been helping our clients obtain all necessary permits and documents, ensuring the highest quality of services provided.",
+    podtytulAU: "We specialize in the legalization of foreigners' residence in Poland. For years, we have been helping our clients obtain all the necessary permits and documents while ensuring the highest quality of services.",
 
     Opis1AU: "Over 7 years of industry experience",
-    Opis2AU: "Our specialists are experts in the field of residence legalization.",
-    Opis3AU: "We tailor our services to the individual needs of each client.",
-    btnMore: "Read More",
+    Opis2AU: "Individual approach to each client.",
+    Opis3AU: "Comprehensive service",
+    Opis4AU: "Constant communication with the client",
+    btnMore: "Learn more",
 
     //Opinions
     OpinieT: "Reviews",
 
     //Plans
     TytulPl: "OUR PACKAGES",
-    PodTytulPl: "Tailored to Your Needs",
-    Title1Pl: "KONSULTACJA INTRO",
-    Title2Pl: "KONSULTACJA FULL",
+    PodTytulPl: "Tailored to your needs",
+    Title1Pl: "INTRO CONSULTATION",
+    Title2Pl: "FULL CONSULTATION",
     Title3Pl: "BASIC",
     Title4Pl: "BASIC PLUS",
     Title5Pl: "RELOCATION UNLIMITED",
-    
-    Kons1Pl: "Initial Consultation",
-    Kons2Pl: "Document Analysis",
-    Kons3Pl: "Preparation of Document Package",
-    Kons4Pl: "Information on Required Documents",
-    
-    Basic1Pl: "Initial Consultation",
-    KonWs2: "Document Analysis",
-    
-    BasicP1: "Initial Consultation",
-    BasicP2: "Document Analysis",
-    BasicP3: "Appointment Scheduling at the Office",
-    BasicP4: "Power of Attorney",
-    BasicP5: "Joint Visit to the Voivodeship Office to Submit the Application",
-    BasicP6: "Supervision of the Case and Keeping Track of Deadlines",
-    BasicP7: "Communication with the Inspector on Behalf of the Client",
-    BasicP8: "Completing Documents on Behalf of the Client",
-    BasicP9: "Appointment Booking for Residence Card Collection",
-    BasicP10: "*Price does not include administrative fees",
-    BasicP11: "**Final price depends on the basis of the application",
 
+    Kons1Pl: "Initial phone consultation / 15min",
 
-    Rodz1Pl: "Initial Consultation",
-    Rodz2Pl: "Document Analysis",
-    Rodz3Pl: "Appointment Scheduling at the Office",
-    Rodz4Pl: "Power of Attorney",
-    Rodz5Pl: "Joint Visit to the Voivodeship Office to Submit the Application",
-    Rodz6Pl: "Supervision of the Case and Keeping Track of Deadlines",
-    Rodz7Pl: "Communication with the Inspector on Behalf of the Client",
-    Rodz8Pl: "Completing Documents on Behalf of the Client",
-    Rodz9Pl: "Appointment Booking for Residence Card Collection",
-    Rodz10Pl: "*Price does not include administrative fees",
-    Rodz11Pl: "**Final price depends on the basis of the application",
-    
-    Praca1Pl: "Initial Consultation",
-    Praca2Pl: "Document Analysis",
-    Praca3Pl: "Assistance in Choosing the Optimal Path for Relocation",
-    Praca4Pl: "Support in Finding a Real Estate Agency, School/Kindergarten for Children, Language Course Based on Your Requirements",
-    Praca5Pl: "Assistance in Obtaining a PESEL Number",
-    Praca6Pl: "Assistance in Obtaining a Residence Registration Certificate",
-    Praca7Pl: "Bank Account Setup",
-    Praca8Pl: "Exchange of Foreign Driver's License for Polish One",
-    
+    Basic1Pl: "Initial consultation",
+    KonWs2: "Document analysis",
 
-    Btn1Pl: "Contact",
-    Btn2Pl: "Contact",
-    Btn3Pl: "Contact",
-    Btn4Pl: "Contact",
-    Btn5Pl: "Contact",
+    //Basic Package
+    Rodz1Pl: "Extended initial consultation",
+    Rodz2Pl: "Document analysis",
+    Rodz3Pl: "Document package preparation",
+    Rodz4Pl: "Information about required documents",
 
+    //Basic Plus Package
+    BasicP1: "Initial consultation",
+    BasicP2: "Document analysis",
+    BasicP3: "Scheduling an appointment at the office",
+    BasicP4: "Power of attorney",
+    BasicP5: "Joint visit to the Voivodeship Office to submit the application",
+    BasicP6: "Supervision of the case progress and deadline tracking",
+    BasicP7: "Communication with the inspector on behalf of the client",
+    BasicP8: "Supplementing documents on behalf of the client",
+    BasicP9: "Appointment reservation for residence card collection",
+    BasicP10: "*The price does not include administrative fees",
+    BasicP11: "**The final price depends on the basis of the submitted application",
 
-    BtnPl: "Contact",
+    Praca1Pl: "Initial consultation",
+    Praca2Pl: "Document analysis",
+    Praca3Pl: "Help in choosing the optimal relocation path",
+    Praca4Pl: "Support in finding a real estate office, school/kindergarten for children, or language course based on your requirements",
+    Praca5Pl: "Assistance in obtaining a PESEL number",
+    Praca6Pl: "Opening a bank account",
+    Praca7Pl: "Exchanging a foreign driver's license for a Polish one",
+    Praca8Pl: "Help in obtaining the first temporary residence permit based on the “BASIC PLUS” package",
+
+    Btn1Pl: "SCHEDULE A CONSULTATION",
+    Btn2Pl: "BASIC PLUS PACKAGE",
+    Btn3Pl: "GET A QUOTE",
+    Btn4Pl: "BASIC PACKAGE",
+    Btn5Pl: "SCHEDULE A CONSULTATION",
 
     //Section: Why Us?
     TytulWU: "WHY US?",
-    PodTytulWU: "Why Choose Relowave?",
-    OpisWo: "Choosing the right company for legalizing your stay in Poland is key to success. Here are some reasons why Relowave is the best choice:",
+    PodTytulWU: "Why choose Relowave?",
+    OpisWo: "Choosing the right company for residence legalization in Poland is key to success. Here are a few reasons why Relowave is the best choice:",
     List1Wu: "Professionalism and Experience",
     List2Wu: "Speed and Efficiency",
     List3Wu: "Individual Approach",
     List4Wu: "Comprehensive Services",
-    List5Wu: "Support and Advisory",
+    List5Wu: "Support and Advice",
 
     //Contact
     TytulKo: "Our Office",
@@ -246,11 +234,12 @@ const languages = {
 
     //Footer
     Slogan: "Your migration concierge in Poland.",
-    StronaglownaFO: "Home",
+    StronaglownaFO: "Home Page",
     OnasFO: "About Us",
     UslugiFO: "Services",
     KontaktFO: "Contact",
-    SkontFO: "Get in Touch",
+    SkontFO: "Contact Us",
+
 
   },
   uk: {
@@ -259,122 +248,115 @@ const languages = {
     onas: "Про нас",
     uslugi: "Послуги",
     kontakt: "Контакт",
-    //Welocome Page
-    Tytul: "Ласкаво просимо до",
+    //Welcome Page
+    Tytul: "Ласкаво просимо до ",
     Tytul2: "Relowave",
-    slogan: "Наша місія - спрощення процесу легалізації перебування в Польщі",
-    btnind: "Ознайомся",
+    slogan: "Ми полегшимо ваш процес легалізації перебування в Польщі",
+    btnind: "Дізнатися більше  >",
+    btnind2: "Дізнатися більше  >",
 
     //Services
-    Tytul1SE: "Наші Послуги",
-    Tytul2SE: "Чим ми займаємося",
+    Tytul1SE: "Наші послуги",
+    Tytul2SE: "ЧИМ МИ ЗАЙМАЄМОСЯ",
     Lista1SE: "Легалізація перебування",
     Lista2SE: "Дозволи на роботу",
     Lista3SE: "Отримання громадянства",
     Lista4SE: "Консультації",
-    Lista5SE: "Дозвіл на водіння",
+    Lista5SE: "Обмін водійських прав",
     Lista6SE: "Визнання іноземних актів цивільного стану",
 
     Opis1AS: "Тимчасове перебування, Постійне перебування, Довгострокове перебування",
-    Opis2AS: "Допомагаємо у отриманні всіх необхідних дозволів на роботу.",
-    Opis3AS: "Допомагаємо в отриманні документів, пов'язаних з отриманням громадянства.",
-    Opis4AS: "Допомога у визнанні іноземних актів цивільного стану.",
-    Opis5AS: "Допомога у отриманні необхідних документів для легалізації водійського посвідчення в Польщі",
-    Opis6AS: "Допомога у визнанні іноземних актів цивільного стану",
+    Opis2AS: "Допомога у отриманні всіх необхідних дозволів на роботу.",
+    Opis3AS: "Пропонуємо комплексну допомогу у процесі отримання громадянства.",
+    Opis4AS: "Пропонуємо професійну підтримку на кожному етапі легалізації.",
+    Opis5AS: "Допомога в обміні іноземного водійського посвідчення на польське.",
+    Opis6AS: "Допомога у визнанні іноземних актів цивільного стану.",
 
     //About Us
     titleAU: "ПРО НАС",
-    podtytulAU: "це компанія, що спеціалізується на легалізації перебування іноземців в Польщі. Ми допомагаємо нашим клієнтам отримати всі необхідні дозволи та документи, дбаючи про найвищу якість послуг.",
+    podtytulAU: "Ми спеціалізуємося на легалізації перебування іноземців у Польщі. Протягом багатьох років ми допомагаємо нашим клієнтам отримати всі необхідні дозволи та документи, забезпечуючи найвищу якість послуг.",
 
-    Opis1AU: "Понад 7 років досвіду в галузі",
-    Opis2AU: "Наші спеціалісти - експерти в галузі легалізації перебування.",
-    Opis3AU: "Ми адаптуємо наші послуги до індивідуальних потреб кожного клієнта.",
-    btnMore: "Читати більше",
+    Opis1AU: "Більше 7 років досвіду у галузі",
+    Opis2AU: "Індивідуальний підхід до кожного клієнта.",
+    Opis3AU: "Комплексне обслуговування",
+    Opis4AU: "Постійний зв’язок із клієнтом",
+    btnMore: "Дізнатися більше",
 
     //Opinie
     OpinieT: "Відгуки",
 
-    //Plany
+    //Plans
     TytulPl: "НАШІ ПАКЕТИ",
-    PodTytulPl: "Задовольняючи ваші потреби",
-    Title1Pl: "КОНСУЛЬТАЦІЯ",
-    Title2Pl: "БАЗОВИЙ",
-    Title3Pl: "БАЗОВИЙ ПЛЮС",
-    Title4Pl: "РЕЛОКАЦІЯ БЕЗ ОБМЕЖЕНЬ",
-    Title5Pl: "РЕЛОКАЦІЯ БЕЗ ОБМЕЖЕНЬ",
+    PodTytulPl: "Адаптовані до ваших потреб",
+    Title1Pl: "КОНСУЛЬТАЦІЯ INTRO",
+    Title2Pl: "КОНСУЛЬТАЦІЯ FULL",
+    Title3Pl: "BASIC",
+    Title4Pl: "BASIC PLUS",
+    Title5Pl: "RELOCATION UNLIMITED",
 
-    Kons1Pl: "Початкова Консультація",
-    Kons2Pl: "Аналіз Документів",
-    Kons3Pl: "Підготовка Пакету Документів",
-    Kons4Pl: "Інформація про Необхідні Документи",
+    Kons1Pl: "Попередня телефонна консультація / 15 хв",
 
-    Basic1Pl: "Початкова Консультація",
-    KonWs2: "Аналіз Документів",
+    Basic1Pl: "Попередня консультація",
+    KonWs2: "Аналіз документів",
 
-    BasicP1: "Початкова Консультація",
-    BasicP2: "Аналіз Документів",
+    //Pakiet Basic
+    Rodz1Pl: "Розширена початкова консультація",
+    Rodz2Pl: "Аналіз документів",
+    Rodz3Pl: "Підготовка пакету документів",
+    Rodz4Pl: "Інформація про необхідні документи",
+
+    //Pakiet Basic Plus
+    BasicP1: "Попередня консультація",
+    BasicP2: "Аналіз документів",
     BasicP3: "Запис на прийом в офісі",
     BasicP4: "Довіреність",
-    BasicP5: "Спільний Візит до Воєводського Управління для Подання Заявки",
-    BasicP6: "Нагляд за Розглядом Справи та Контроль за Дотриманням Термінів",
-    BasicP7: "Комунікація з Інспектором від Імені Клієнта",
-    BasicP8: "Доповнення Документів від Імені Клієнта",
-    BasicP9: "Запис на Прийом для Отримання Карти Побиту",
-    BasicP10: "*Ціна не включає адміністративні збори",
+    BasicP5: "Спільний візит до Воєводського управління для подачі заяви",
+    BasicP6: "Контроль ходу справи та дотримання термінів",
+    BasicP7: "Комунікація з інспектором від імені клієнта",
+    BasicP8: "Доповнення документів від імені клієнта",
+    BasicP9: "Резервація візиту для отримання карти перебування",
+    BasicP10: "*Ціна не включає адміністративний збір",
     BasicP11: "**Кінцева ціна залежить від підстави подання заявки",
 
-    Rodz1Pl: "Початкова Консультація",
-    Rodz2Pl: "Аналіз Документів",
-    Rodz3Pl: "Запис на прийом в офісі",
-    Rodz4Pl: "Довіреність",
-    Rodz5Pl: "Спільний Візит до Воєводського Управління для Подання Заявки",
-    Rodz6Pl: "Нагляд за Розглядом Справи та Контроль за Дотриманням Термінів",
-    Rodz7Pl: "Комунікація з Інспектором від Імені Клієнта",
-    Rodz8Pl: "Доповнення Документів від Імені Клієнта",
-    Rodz9Pl: "Запис на Прийом для Отримання Карти Побиту",
-    Rodz10Pl: "*Ціна не включає адміністративні збори",
-    Rodz11Pl: "**Кінцева ціна залежить від підстави подання заявки",
+    Praca1Pl: "Попередня консультація",
+    Praca2Pl: "Аналіз документів",
+    Praca3Pl: "Допомога у виборі оптимального шляху для релокації",
+    Praca4Pl: "Підтримка у пошуку агентства нерухомості, школи/дитячого садка для дітей, мовного курсу на основі ваших вимог",
+    Praca5Pl: "Допомога у отриманні номера PESEL",
+    Praca6Pl: "Відкриття банківського рахунку",
+    Praca7Pl: "Обмін іноземного водійського посвідчення на польське",
+    Praca8Pl: "Допомога у отриманні першого дозволу на тимчасове перебування на основі пакету «BASIC PLUS»",
 
-    Praca1Pl: "Початкова Консультація",
-    Praca2Pl: "Аналіз Документів",
-    Praca3Pl: "Допомога у Виборі Оптимального Шляху для Релокації",
-    Praca4Pl: "Підтримка в Пошуку Агенції Нерухомості, Школи/Дитячого Саду для Дітей, Мовного Курсу на Основі Ваших Вимог",
-    Praca5Pl: "Допомога в Отриманні Номера PESEL",
-    Praca6Pl: "Допомога в Отриманні Свідоцтва про Реєстрацію Місця Проживання",
-    Praca7Pl: "Відкриття Банківського Рахунку",
-    Praca8Pl: "Обмін Іноземного Водійського Посвідчення на Польське",
+    Btn1Pl: "ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ",
+    Btn2Pl: "ПАКЕТ BASIC PLUS",
+    Btn3Pl: "ОТРИМАТИ ОЦІНКУ",
+    Btn4Pl: "ПАКЕТ BASIC",
+    Btn5Pl: "ЗАПИСАТИСЯ НА КОНСУЛЬТАЦІЮ",
 
-
-    Btn1Pl: "Контакт",
-    Btn2Pl: "Контакт",
-    Btn3Pl: "Контакт",
-    Btn4Pl: "Контакт",
-    Btn5Pl: "Контакт",
-
-    //Sekcja: Czemy my?
+    //Section: Why Us?
     TytulWU: "ЧОМУ МИ?",
     PodTytulWU: "Чому варто обрати Relowave?",
-    OpisWo: "Вибір відповідної компанії для легалізації перебування в Польщі є ключем до успіху. Ось кілька причин, чому Relowave є найкращим вибором:",
-    List1Wu: "Професіоналізм і досвід",
-    List2Wu: "Швидкість та ефективність",
-    List3Wu: "Індивідуальний підхід",
-    List4Wu: "Комплексні послуги",
-    List5Wu: "Підтримка та консультації",
+    OpisWo: "Вибір правильної компанії для легалізації перебування у Польщі — ключ до успіху. Ось кілька причин, чому Relowave є найкращим вибором:",
+    List1Wu: "Професіоналізм та Досвід",
+    List2Wu: "Швидкість та Ефективність",
+    List3Wu: "Індивідуальний Підхід",
+    List4Wu: "Комплексні Послуги",
+    List5Wu: "Підтримка та Консультації",
 
-    //Kontakt
+    //Contact
     TytulKo: "Наш офіс",
     TytulWi: "Напишіть нам",
     BtnWi: "Надіслати повідомлення",
 
-    //footer
+    //Footer
     Slogan: "Ваш міграційний консьєрж у Польщі.",
     StronaglownaFO: "Головна сторінка",
     OnasFO: "Про нас",
     UslugiFO: "Послуги",
     KontaktFO: "Контакт",
-    SkontFO: "Зв'яжіться з нами",
+    SkontFO: "Зв’язатися",
+}
 
-  }
 };
 
 function updateTexts(language) {
@@ -471,9 +453,9 @@ function updateTexts(language) {
   document.getElementById('Btn3Pl').innerText = languages[language].Btn3Pl;
   document.getElementById('Btn5Pl').innerText = languages[language].Btn5Pl;
   //Kontakt
+  document.getElementById('TytulWi').innerText = languages[language].TytulWi;
   document.getElementById('TytulKo').innerText = languages[language].TytulKo;
   //Napuisz do nas
-  document.getElementById('TytulWi').innerText = languages[language].TytulWi;
   document.getElementById('BtnWi').innerText = languages[language].BtnWi;
 
   document.getElementById('Slogan').innerText = languages[language].Slogan;
