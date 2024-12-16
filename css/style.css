@@ -35,6 +35,20 @@
     box-shadow: -1px 9px 18px 0px rgba(75, 81, 91, 0.1);
     border-radius: 50%;
     display: inline-block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dot i{
+	color: #FB8500;
+	font-size: 3rem;
+  }
+
+  .uptop{
+	display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 .swiper-container {
