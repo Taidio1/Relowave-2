@@ -28,6 +28,11 @@
     font-weight: 500;
 }
 
+.none i {
+
+color: #fff;
+}
+
 .dot {
     height: 104.55px;
     width: 104.55px;
