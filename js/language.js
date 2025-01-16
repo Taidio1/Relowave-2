@@ -89,7 +89,7 @@ const languages = {
     Praca1Pl: "Konsultacja wstępna",
     Praca2Pl: "Analiza dokumentów",
     Praca3Pl: "Pomoc w wyborze optymalnej ścieżki dla relokacji",
-    Praca4Pl: "Wsparcie w poszukiwaniu biura nieruchomości, szkoły/przedszkola dla dzieci, kursu językowego na podstawie twoich wymagań",
+    Praca4Pl: "Pomoc w znalezieniu biura nieruchomości, szkoły, przedszkola lub kursu językowego zgodnie z Twoimi wymaganiami.",
     Praca5Pl: "Pomoc w otrzymaniu numeru PESEL",
     Praca6Pl: "Założenie konta bankowego",
     Praca7Pl: "Wymiana zagranicznego prawa jazdy na polskie",

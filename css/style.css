@@ -410,7 +410,7 @@ ul {
 
 .pricing-item li {
   margin: 0 30px;
-  font-size: 12px;
+  font-size: min(16px, 22px);
   color: #000000;
   font-weight: 500;
 }
@@ -1184,6 +1184,24 @@ h6,
 		width: 24px;
 	}
 }
+
+@media (max-width: 576px) {
+	.bigger svg{
+		width: 23px;
+		height: 22px;
+	}
+	.biggger svg{
+		width: 26px !important;
+		height: 26px !important;
+	}
+	.bigg svg{
+		width: 16.5px !important;
+		height: 16.5px !important;
+	}
+}
+
+
+
 
 @media (min-width: 1200px) {
 	.heading-decoration-1 {
@@ -2478,6 +2496,8 @@ div.box-custom-5-main {
 	width: 1.9em;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	justify-content: center;
 }
 
 .box-modern-circle-1,
