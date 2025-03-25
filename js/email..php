@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Adres e-mail, na który zostanie wysłana wiadomość
-    $to = "tatiana@relowave";
+    $to = "tetiana@relowave.com";
     $email_subject = "=?UTF-8?B?" . base64_encode("Formularz kontaktowy: $name") . "?=";
     $email_body = "Imie i Nazwisko: $name\n";
     $email_body .= "Email: $email\n";
