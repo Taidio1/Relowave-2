@@ -33,6 +33,17 @@
 color: #fff;
 }
 
+#ringtone{
+	line-height: 2 !important;
+}
+
+@media (max-width: 768px) { /* Możesz dostosować szerokość do swoich potrzeb */
+    .context-dark{
+
+		background-position-x: 33% !important;  /* Przesunięcie o 25px w prawo */
+	}
+}
+
 .dot {
     height: 104.55px;
     width: 104.55px;
@@ -151,7 +162,23 @@ color: #555;
 	display: flex;
 	align-items: center;
     gap: 12px;
+	
   }
+
+  .checkbox-container svg {
+	flex-shrink: 0;
+	width: 1.2em;
+	height: 1.2em;
+	margin-top: 4px;
+  }
+  
+  .checkbox-container label {
+	flex: 1;
+	font-size: 1rem;
+	line-height: 1.4;
+	color: #1A354A;
+  }
+
   .checkbox:before{
 	z-index:15;
 	content: '';
@@ -1185,20 +1212,6 @@ h6,
 	}
 }
 
-@media (max-width: 576px) {
-	.bigger svg{
-		width: 23px;
-		height: 22px;
-	}
-	.biggger svg{
-		width: 26px !important;
-		height: 26px !important;
-	}
-	.bigg svg{
-		width: 16.5px !important;
-		height: 16.5px !important;
-	}
-}
 
 
 

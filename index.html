@@ -80,8 +80,8 @@
         </nav>
       </div>
     </header>
-    <section class="section parallax-container context-dark" id="Home" style="background-color: #212121;"
-      data-parallax-img="Images/bg.png">
+    <section class="section parallax-container context-dark" id="Home" 
+    style="background-image: url('Images/bg.png'); background-size: cover; background-position: center;">
       <div class="parallax-content">
         <!-- FScreen-->
         <div class="page-header-2-inner">
@@ -1260,38 +1260,38 @@
             <div class="row justify-content-center">
               <div class="col-lg-11 col-xl-9">
                 <!-- RD Mailform-->
-                <form class="rd-mailform rd-form" data-form-output="form-output-global" data-form-type="contact"
-                  method="post" action="bat/rd-mailform.php">
-                  <div class="row row-x-16 row-20">
-                    <div class="col-md-6">
-                      <div class="form-wrap">
-                        <input class="form-input" id="contact-name" type="text" name="name"
-                          data-constraints="@Required">
-                        <label class="form-label" for="contact-name">Your Name</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-wrap">
-                        <input class="form-input" id="contact-email" type="email" name="email"
-                          data-constraints="@Required @Email">
-                        <label class="form-label" for="contact-email">Email</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-wrap">
-                        <label class="form-label" for="contact-message">Message</label>
-                        <textarea class="form-input" id="contact-message" name="message"
-                          data-constraints="@Required"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-wrap form-button">
-                        <button id="BtnWi" class="button button-block button-primary" type="submit">Send
-                          Message</button>
-                      </div>
+                <form class="rd-mailform rd-form" id="contactForm" action="/js/email..php" data-form-output="form-output-global" data-form-type="contact"
+                method="post">
+                <div class="row row-x-16 row-20">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-name" type="text" name="name"
+                        data-constraints="@Required">
+                      <label class="form-label" id="name" for="contact-name">Your Name</label>
                     </div>
                   </div>
-                </form>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-email" type="email" name="email"
+                        data-constraints="@Required @Email">
+                      <label class="form-label" id="email" for="contact-email">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-message">Message</label>
+                      <textarea class="form-input" id="WiadomoscCO" name="message"
+                        data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap form-button">
+                      <button id="BtnWi" class="button button-block button-primary" type="submit">Send
+                        Message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
               </div>
             </div>
           </div>
@@ -1386,7 +1386,7 @@
         </div>
         -->
     </footer>
-    <a id="ringtone" href="sms:+48883279055" class="uptop ui-to-top fas fa-arrow-up"></a>
+    <a id="ringtone" class="uptop ui-to-top fas fa-arrow-up"></a>
     <script>
 
       function shakeButton() {
